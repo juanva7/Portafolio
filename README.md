@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portafolio</title>
+  <title><h1>Mi Portafolio</h1></title>
   <style>
     :root {
-      --color-primario: #0077b6;
+      --color-primario: #3fbafc;
       --color-secundario: #0096c7;
-      --color-fondo: #f8f9fa;
+      --color-fondo: #d4eaff;
       --color-texto: #333;
     }
 
@@ -33,11 +33,7 @@
       align-items: center;
       background: var(--color-primario);
       padding: 1rem;
-      color: #fff;
-    }
-
-    .navbar .logo {
-      font-weight: bold;
+      color: #d4eaff;
     }
 
     .nav-links {
@@ -50,7 +46,7 @@
     }
 
     .nav-links a {
-      color: #fff;
+      color: #d4eaff;
       text-decoration: none;
     }
 
@@ -59,7 +55,7 @@
       font-size: 24px;
       background: none;
       border: none;
-      color: white;
+      color: #d4eaff;
       cursor: pointer;
     }
 
@@ -68,20 +64,20 @@
       text-align: center;
       padding: 100px 20px;
       background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
-      color: #fff;
+      color: #d4eaff;
     }
 
     .hero h1 span {
-      color: yellow;
+      color: rgb(253, 253, 0);
     }
 
     .btn {
       display: inline-block;
       background: tomato;
-      color: #fff;
+      color: #d4eaff;
       padding: 10px 20px;
       margin-top: 20px;
-      text-decoration: none;
+      text-decoration: navy;
       border-radius: 5px;
     }
 
@@ -96,11 +92,6 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-    }
-
-    .about img {
-      width: 150px;
-      border-radius: 50%;
     }
 
     /* Habilidades */
@@ -128,7 +119,7 @@
     /* Proyectos */
     .projects {
       padding: 50px 20px;
-      background: #fff;
+      background: #d4eaff;
     }
 
     .project-cards {
@@ -139,7 +130,7 @@
     }
 
     .card {
-      background: #f1f1f1;
+      background: #d4eaff;
       padding: 20px;
       border-radius: 10px;
       width: 300px;
@@ -180,7 +171,7 @@
 
     form button {
       background: var(--color-secundario);
-      color: white;
+      color: #d4eaff;
       border: none;
       padding: 10px;
       cursor: pointer;
@@ -192,7 +183,7 @@
       text-align: center;
       padding: 20px;
       background: var(--color-primario);
-      color: white;
+      color: #d4eaff;
     }
 
     /* Responsive */
@@ -239,7 +230,7 @@
 
   <!-- Inicio -->
   <section id="inicio" class="hero">
-    <h1>¡Hola! Soy <span>[Tu Nombre]</span></h1>
+    <h1>¡Hola! Soy <span>Juan Vargas</span></h1>
     <p>Desarrollador web frontend apasionado por crear experiencias digitales increíbles</p>
     <a href="#contacto" class="btn">¡Contáctame!</a>
   </section>
@@ -316,7 +307,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 mi portafolio. Todos los derechos reservados.</p>
+    <p>&copy; 2025 mi portafolio personal. Todos los derechos reservados.</p>
     <div class="socials">
       <a href="#">Instagram</a> | <a href="#">GitHub</a> | <a href="#">Threads</a>
     </div>
@@ -372,4 +363,3 @@
   </script>
 </body>
 </html>
-
